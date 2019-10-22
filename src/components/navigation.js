@@ -13,7 +13,7 @@ const Navigation = () => (
         <ul className="nav-links">
             <Link to="/aboutme" className="buttons">About Me</Link> 
             <Link to="/developer" className="buttons">Developer</Link> 
-            <Link to="/design" className="buttons">Artist</Link> 
+            <Link to="/artist" className="buttons">Artist</Link> 
             <Link to="/cartographypage" className="buttons">Cartographer</Link>
             <Link to="/blogpage" className="buttons">Enthuisest</Link>
             <Link to="/blogpage" className="buttons">Blogger</Link> 
