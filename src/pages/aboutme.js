@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 
-const AboutMe = () => {
+const AboutMePage = () => {
 return(
 <Layout>
     <Header></Header>
@@ -71,4 +71,4 @@ return(
 )
 }
 
-export default AboutMe
+export default AboutMePage
