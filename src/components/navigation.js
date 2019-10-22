@@ -11,10 +11,11 @@ const Navigation = () => (
     </label>
     <nav>
         <ul className="nav-links">
+            <Link to="/" className="buttons">Home</Link> 
             <Link to="/aboutme" className="buttons">About Me</Link> 
             <Link to="/developer" className="buttons">Developer</Link> 
             <Link to="/artist" className="buttons">Artist</Link> 
-            <Link to="/cartographypage" className="buttons">Cartographer</Link>
+            <Link to="/cartographer" className="buttons">Cartographer</Link>
             <Link to="/blogpage" className="buttons">Enthuisest</Link>
             <Link to="/blogpage" className="buttons">Blogger</Link> 
         </ul>
