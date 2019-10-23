@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
-import Image from "../components/image"
 
 const ArtistPage = () => (
   <Layout>
@@ -9,9 +8,7 @@ const ArtistPage = () => (
     <section className="art-container">
         <span className="art-box">
             <h2 className="art-title"> Handcrafted Shoes</h2>
-                <Image></Image>
-                <img className="images" 
-                alt="hand drawn shoes with flowers adn birds"/> 
+                
                 <p className="para2"> Made: April 2nd for my friend Alexis RN pinning Ceramony. <br/>These shoes were crafted using marker and pen.<br/> The inspiration came from her love of flowers and birds. <br/>It took less than 6 hours to make.  </p>
         </span>
         <span className="art-box">
