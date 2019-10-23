@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useImageMetadata } from "../hooks/use-image-metadata"
 import Img from "gatsby-image"
 
 /*
@@ -13,21 +13,18 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 const Image = () => {
-  const data = useStaticQuery(graphql`
- query ImageQuery {
-  allImageJson {
-    edges {
-      node {
-        imgSrc
-        id
-      }
-    }
+ 
+
+  return <h2>BROKE</h2>
+}
+
+
+export default () => {
+  const { imgSrc } = useImageMetadata()
+  return ( 
+  <>
+    <h2>Success</h2>
+    <img>{imgSrc}</img>
+  </>  
+    )
   }
-}
-  `)
-
-  return <Img fluid={data} />
-}
-
-
-export default Image
