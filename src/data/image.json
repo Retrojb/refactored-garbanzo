@@ -1,0 +1,67 @@
+[
+
+    {
+        "id": "java",
+        "imgSrc": "../images/java.png"
+       
+    },
+    {
+        "id": "angular",
+        "imgSrc": "../images/angular.png"
+       
+    },
+    {
+        "id": "kotlin",
+        "imgSrc": "../images/kotlin.jpeg"
+       
+    },
+    {
+        "id": "js",
+        "imgSrc": "../images/js-logo.png"
+       
+    },
+    {
+        "id": "mongo",
+        "imgSrc": "../images/mongo.png"
+       
+    },
+    {
+        "id": "gatsby",
+        "imgSrc": "../images/gatsby.png"
+       
+    },
+    {
+        "id": "python",
+        "imgSrc": "../images/python.png"
+       
+    },
+    {
+        "id": "typescript",
+        "imgSrc": "../images/typescript.png"
+       
+    },
+    {
+        "id": "react",
+        "imgSrc": "../images/react.png"
+       
+    },
+    {
+        "id": "concourse",
+        "imgSrc": "../images/concourse.png"
+       
+    },
+    {
+        "id": "html",
+        "imgSrc": "../images/html.png"
+       
+    },
+    {
+        "id": "css",
+        "imgSrc": "../images/css.png"
+       
+    },
+    {
+        "id": "alexisShoes",
+        "imgSrc":"../images/alexisshoes.jpg"
+    }
+]

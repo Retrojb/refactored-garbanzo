@@ -1,8 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Baltes Design &amp; Development`,
-    description: ``,
+    title: `Retrojb Portfolio`,
+    description: `Welcome to John Baltes aka Retrojb development world.`,
     author: `@retrojb`,
+    name: `John Baltes`,
+    email: `baltescartography@gmail.com`,
+    github: `https://www.github.com/retrojb` ,
+    linkedIn: `https://www.linkedin.com/in/john-baltes/`,
+    phone: `(937)272-0959`,
+    hackerRank: ``,
+    attachments:
+      "./static/Resume.pdf"
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,7 +19,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images`
       },
     },
     `gatsby-transformer-sharp`,
@@ -24,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/rick_sanchez_logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-json`,
