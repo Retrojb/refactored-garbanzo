@@ -4,6 +4,7 @@ import Header from "../components/header"
 import ContactForm from "../components/contact-form"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import style from "../style/style.module.css"
+import SocialMedia from "../components/social-media"
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +24,7 @@ export default () => {
   return ( 
     <Layout>
     <h1>{title}</h1>
+<SocialMedia></SocialMedia>
     <h4> author {author} </h4>
     <h4> email { email } </h4>
     <h5> about { description } </h5>

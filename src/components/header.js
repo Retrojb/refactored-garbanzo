@@ -7,13 +7,19 @@ import Rick from "../images/rick_sanchez_logo.png"
 const Header = ({ siteTitle, siteSubTitle }) => (
   <header>
     <div className={container.header_main_container}>
+      <span className={container.sub_container}>
         <img className={container.header_logo} src={Rick} />
         <h2 className={container.header_title_prop}>
              {siteTitle}
         <br/>{siteSubTitle}</h2>
-
-        <Navigation className={container.content}></Navigation>
+        <button>Menu</button>
+      </span>
     </div>
+        {/* <div className={container.nav}>
+        <Navigation></Navigation>
+        </div> */}
+
+  
     <hr></hr>
   </header> 
  

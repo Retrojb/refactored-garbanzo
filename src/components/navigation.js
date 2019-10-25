@@ -1,25 +1,18 @@
 import React from 'react';
 import { Link } from "gatsby"
-
+import container from "../style/container.module.css"
 const Navigation = () => (
 <div>
-    <input id="burger" type="checkbox" hidden />
-    <label htmlFor="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-    <nav>
-        <ul className="nav-links">
-            <Link to="/" className="buttons">Home</Link> 
-            <Link to="/aboutme" className="buttons">About Me</Link> 
-            <Link to="/developer" className="buttons">Developer</Link> 
-            <Link to="/artist" className="buttons">Artist</Link> 
-            <Link to="/cartographer" className="buttons">Cartographer</Link>
-            <Link to="/blogpage" className="buttons">Enthuisest</Link>
-            <Link to="/blogpage" className="buttons">Blogger</Link> 
+    <input className="nav_btn" type="checkbox" hidden />
+        <ul className={container.nav_links}>
+            <Link to="/" className={container.buttons}>Home</Link> 
+            <Link to="/aboutme" className={container.buttons}>About Me</Link> 
+            <Link to="/developer" className={container.buttons}>Developer</Link> 
+            <Link to="/artist" className={container.buttons}>Artist</Link> 
+            <Link to="/cartographer" className={container.buttons}>Cartographer</Link>
+            <Link to="/blogpage" className={container.buttons}>Enthuisest</Link>
+            <Link to="/blogpage" className={container.buttons}>Blogger</Link> 
         </ul>
-    </nav>
 </div>
 )
 
