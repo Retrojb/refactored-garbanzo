@@ -11,25 +11,25 @@ import github from "../images/social-media/github-sociocon.png"
 export const SocialMedia = () => {
 
     return (
-    <div >
         <span className={container.social_container}>
-            <Link to="/https://twitter.com/JohnBaltes6" target="_blank"><img src={twitter} className={container.social_logo} /></Link> 
-                
-            <Link to="/https://Linkedin.com/in/john-baltes" target="_blank">
-                <img src={linkedIn} className={container.social_logo} /></Link> 
-            
-            <Link  to="/https://retrojb.tumblr.com/" target="_blank">
-                <img src={tumblr} className={container.social_logo} /></Link> 
-            
-            <Link  to="/https://github.com/Retrojb" target="_blank">
-                <img src={github} className={container.social_logo} /></Link> 
-            
-            <Link  to="/https://codepen.io/Retrojb/" target="_blank">
-                <img src={codePen} className={container.social_logo} /></Link> 
+            <a>
+                <img src={twitter} className={container.social_logo} href="https://twitter.com/JohnBaltes6" target="_blank" />
+            </a>     
+            {/* <a>
+                <img src={linkedIn} className={container.social_logo} href="https://Linkedin.com/in/john-baltes" target="_blank" />
+            </a> 
+            <a>
+                <img src={tumblr} className={container.social_logo} href="https://retrojb.tumblr.com/" target="_blank" />
+            </a> 
+            <a>
+                <img src={github} className={container.social_logo} href="https://github.com/Retrojb" target="_blank" />
+            </a> 
+            <a>
+                <img src={codePen} className={container.social_logo} href="https://codepen.io/Retrojb/" target="_blank" />
+            </a>  */}
         </span>
-    </div>
-)
-    }
+    )
+}
 
 export default SocialMedia
 
