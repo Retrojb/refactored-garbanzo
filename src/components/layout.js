@@ -12,6 +12,8 @@ import Header from "./header"
 import Footer from "./footer"
 import "../style/layout.css"
 
+
+//look into how to make all of my pages into children here
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

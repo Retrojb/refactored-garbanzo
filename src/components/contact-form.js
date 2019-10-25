@@ -9,7 +9,6 @@ const ContactForm = () => (
             <input type="text" placeholder="Email"></input>
             <button>Submit</button>
         </div>
-        <ArtistPage></ArtistPage>
     </form>
 )
 export default ContactForm

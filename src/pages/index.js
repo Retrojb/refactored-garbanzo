@@ -22,7 +22,6 @@ export default () => {
   const { title,  author, email, description } = useSiteMetadata()
   return ( 
     <Layout>
-    <Header></Header>
     <h1>{title}</h1>
     <h4> author {author} </h4>
     <h4> email { email } </h4>

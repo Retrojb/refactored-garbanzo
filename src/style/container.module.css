@@ -250,12 +250,19 @@ header nav ul li{
     margin-left: 0.5rem;
     margin-right: 0.2rem;
 }
-.header-title{
-    text-align: center;
+.header_main_container{
+    padding: 2rem;
+    background-color: #a56bce;
+    border: 3px solid teal; 
 }
-.help{
-    /* padding: 2rem; */
-    text-align: center;
+
+.header_logo{
+    width: 50px;
+    height: 50px;
+}
+.header_title_prop{
+    padding: 2rem;
+    text-align: left;
     border: 3px solid teal; 
 }
 .profile-picture{
