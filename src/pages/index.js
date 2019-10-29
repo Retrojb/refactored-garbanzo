@@ -24,7 +24,6 @@ export default () => {
   return ( 
     <Layout>
     <h1>{title}</h1>
-<SocialMedia></SocialMedia>
     <h4> author {author} </h4>
     <h4> email { email } </h4>
     <h5> about { description } </h5>

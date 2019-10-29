@@ -44,7 +44,6 @@
     flex-direction: row;
     width:60%;
     justify-content: space-around;
-    background-color: #4f4f4f;
 }
 
 .social_logo {
@@ -57,3 +56,18 @@
     transform: scale(1.6);
     background-color: none;
 }
+
+.copy_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_main_container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a56bce;
+    border: 3px solid teal; 
+}
+
