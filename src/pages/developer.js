@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
+import container from "../style/container.module.css"
 
 const DeveloperPage = () => (
   <Layout>
-    <Header></Header>      
       <div className="dev-container">
       <aside className="aside-dev">
               <h3>Project List:</h3>
@@ -30,13 +30,13 @@ const DeveloperPage = () => (
                   <li>Hayapp</li>
               </ul>
       </aside>
-      <section className="art-container">
-              <span className="art-box" >
+      <section className={container.card_container}>
+              <span className={container.child_card} >
                   
           <img src="images/underconstruction.gif" alt="under construction pickachu" width="550" height="350" />                 
       </span>
       </section>
-      <section className="art-container">
+      <section className={container.card_container}>
           
              
       </section>

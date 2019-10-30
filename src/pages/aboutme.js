@@ -1,17 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
+import container from "../style/container.module.css"
 
 const AboutMePage = () => {
 return(
 <Layout>
-    <Header></Header>
     <span className="art-container about-me-main">
         <h1>Welcome to Baltes Design and Development</h1>
         <h2>I currently work for Nationwide Insurance in Columbus, Ohio as fullstack web developer;
          who is poly-skilled in Testing, Development, Requirements and Continous Intergration Model</h2>
     </span>
-    <section className="art-box">
+    <section className={container.child_card}>
         <span className="about-me">
             <article className="work-desc">
                 <h3>Nationwide Mobile</h3>

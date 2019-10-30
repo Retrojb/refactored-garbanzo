@@ -26,7 +26,7 @@ const Header = ({ siteTitle, siteSubTitle }) => (
 
 )
 
-
+//Remove these and pass the title as a prop example below
 Header.propTypes = {
   siteTitle: PropTypes.string,
   siteSubTitle: PropTypes.string,
@@ -38,3 +38,8 @@ Header.defaultProps = {
 }
 
 export default Header
+
+//Note
+//sub-component ie header
+// `export default props => <tag>{props.WHATEVER YOU WANT TO CALL THIS TAG ARGUEMENT}</tag>`
+//  on page that use sub-component add the `<Subcomponent WHATEVER YOU WANT TO CALL THIS TAG ARGUEMENT="what ever prop you want to declare" />`

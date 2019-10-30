@@ -7,6 +7,7 @@ const CopyRight = () => (
         <small>
             <a href="https://www.gatsbyjs.org">Built with Gatsby</a>
             {` `}
+            < a href="https.surge.sh">Served via Surge</a>
             © {new Date().getFullYear()}
         </small>
     </span>

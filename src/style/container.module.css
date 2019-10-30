@@ -1,3 +1,13 @@
+/* MOVE THESE  */
+
+
+.header_logo{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black; 
+}
+
+/* Containers starts here */
 .header_main_container{
     height: 150px;
     display: flex;
@@ -8,19 +18,13 @@
     border: 3px solid teal; 
 }
 
-.header_logo{
-    width: 50px;
-    height: 50px;
-    border: 3px solid black; 
-}
-
 .header_title_prop{
     margin: 0 4rem 0 4rem;
     border: 3px solid black; 
     margin-left: 5rem;
     padding-right: 9rem
 }
-
+/* ??? */
 .sub_container {
     border: navy 3px dashed;
     display: flex;
@@ -38,23 +42,13 @@
     width: 100%;
 }
 
+/* Footer containers: social media & copy right  */
 .social_container {
     border: red 2px solid;
     display: flex;
     flex-direction: row;
     width:60%;
     justify-content: space-around;
-}
-
-.social_logo {
-    width: 50px;
-    height: 50px;
-    transition: transfom .9s ease;
-}
-
-.social_logo:hover {
-    transform: scale(1.6);
-    background-color: none;
 }
 
 .copy_right {
@@ -70,4 +64,35 @@
     background-color: #a56bce;
     border: 3px solid teal; 
 }
+/* End of Footer  */
 
+/* Info card  */
+.card_container{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+    border: 3px blue solid;
+    
+    
+}
+
+.child_card{
+    width:40%;
+    height: 650px;
+    border: 3px solid purple; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.image_container {
+    width: 80%;
+    height: 400px;
+    border: 3px dashed yellow;
+}

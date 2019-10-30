@@ -27,10 +27,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div>
-      <Header></Header>
-      <main>{children}</main>
-      <Footer></Footer>
+      <div>
+        <Header></Header>
+        <main style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>{children}</main>
+        <Footer></Footer>
       </div>
     </>
   )
@@ -41,3 +41,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
