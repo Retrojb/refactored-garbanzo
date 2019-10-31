@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navigation from "./navigation"
 import container from "../style/container.module.css"
-import Rick from "../images/rick_sanchez_logo.png"
+import Rick from "../images/logos/rick_sanchez_logo.png"
 
 const Header = ({ siteTitle, siteSubTitle }) => (
   <header>

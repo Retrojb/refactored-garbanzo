@@ -2,8 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import style from "../style/style.module.css"
 import container from "../style/container.module.css"
-import Rick from "../images/rick.jpg"
-import Image from "../components/image"
+import Rick from "../images/art-page/rick.jpg"
+import Shoes from "../images/art-page/alexisshoes.jpg"
+// import Rick from "../images/rick.jpg"
+// import Rick from "../images/rick.jpg"
+// import Rick from "../images/rick.jpg"
 
 
 
@@ -14,7 +17,7 @@ const ArtistPage = props => (
         <span className={container.child_card}>
             <h2 className={style.child_card_title}>Pen Drawings</h2>
                 <span className={container.image_container}></span>
-                <Image src={Rick} />
+                <img src={Rick} alt="Rick Sanchez from Rick and Morty" />
                 <p className={style.card_desc}> Columbus from COSI</p>
         </span>                   
         <span className={container.child_card}>
@@ -53,7 +56,9 @@ const ArtistPage = props => (
 
 export default ArtistPage
 
-
+export function getImages() {
+    
+}
 // export default ( ) => {
 //  const data = graphql`	
 //         query {
