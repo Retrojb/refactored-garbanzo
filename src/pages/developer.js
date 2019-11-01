@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/header"
 import container from "../style/container.module.css"
-
+import construction from "../images/random/underconstruction.gif"
 const DeveloperPage = () => (
   <Layout>
-      <div className="dev-container">
+      <div className={container.card_container}>                  
+                  <img src={construction} alt="under construction pickachu" width="550" height="350" />                 
+              
       <aside className="aside-dev">
               <h3>Project List:</h3>
               <button><a href="https://github.com/retrojb?tab=repositories"></a>Github</button>
@@ -31,10 +32,7 @@ const DeveloperPage = () => (
               </ul>
       </aside>
       <section className={container.card_container}>
-              <span className={container.child_card} >
-                  
-          <img src="images/underconstruction.gif" alt="under construction pickachu" width="550" height="350" />                 
-      </span>
+        
       </section>
       <section className={container.card_container}>
           

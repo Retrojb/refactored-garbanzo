@@ -14,16 +14,16 @@ import Goku from "../images/art-page/555CE50C-DA83-4A3C-A7CB-DA86C5408A8C_1_105_
 
 const ArtistPage = (props) => (
   <Layout>
-      <section>
+      <section className={container.card_container}>
+        <div className={container.card_flex_main_col}>
           <h3>The Artist formally know as Zoo</h3>
           <p>Since I can remember, <br/>  I've had a fascination with art. As a child I would spend hours in the winter time just drawing any thing cool I could find in a magazine. I would draw starwar episode 1 characters off Pepsi cans. I would draw cars and engine parts from Motor Trend. Though my personal favorite to illustrate is cartoons, anime and comics. For me there is something with the realm of graphic works that sparks an interest deep inside of me.</p>
             <p>Here are some of the random pieces of art that I have captured on film, arguably some of them aren't that great. Enjoy my numerous styles, and as they say</p> <q><i>Variety is the spice of life</i></q>
-        </section>
-      <section className={container.card_container}>
+        </div>
 
-      <div className={container.card_flex_main}>
-            <h2 className={style.child_card_title}>Shoe doodles</h2>
-            <span className={container.child_card}>
+      <div className={container.card_flex_main_col}>
+            <h2 className={style.child_card_col_title}>Shoe doodles</h2>
+            <span className={container.child_card_row}>
                 <div className={container.image_container}>
                     <img src={Shoes} alt="White Canvas shoes with handdrawn birds and flowers" />
                         <p>Hand drawn shoes for my friend as a gift for her Register Nurse pinning ceramony</p>
@@ -35,9 +35,9 @@ const ArtistPage = (props) => (
                 <p className={style.card_desc}></p>
         </span> 
         </div>
-        <div className={container.card_flex_main}>           
-            <h2 className={style.child_card_title}>Marker Drawings</h2>
-                <span className={container.child_card}>
+        <div className={container.card_flex_main_col}>           
+            <h2 className={style.child_card_col_title}>Marker Drawings</h2>
+                <span className={container.child_card_row}>
                     <div className={container.image_container}>
                         <img src={Rick} alt="Rick Sanchez from Rick and Morty" />
                             <p className={style.card_desc}> Rick Sanchez from Rick and Morty </p>
@@ -48,9 +48,9 @@ const ArtistPage = (props) => (
                     </div>
                 </span>
         </div>
-        <div className={container.card_flex_main}>
-            <h2 className={style.child_card_title}>Ceramics</h2>
-                <span className={container.child_card}>
+        <div className={container.card_flex_main_col}>
+            <h2 className={style.child_card_col_title}>Ceramics</h2>
+                <span className={container.child_card_row}>
                     <div className={container.image_container}>
                         <img src={Cup} alt="A Series of Animals." />
                             <p className={style.card_desc}>Rigs, an old roommates dog</p>
@@ -61,18 +61,18 @@ const ArtistPage = (props) => (
                     </div>
                 </span>
         </div>
-        {/* <div className={container.card_flex_main}>
-            <h2 className={style.child_card_title}>Charcoal</h2>
-                <span className={container.child_card}>
+        <div className={container.card_flex_main_col}>
+            <h2 className={style.child_card_col_title}>Charcoal</h2>
+                <span className={container.child_card_col}>
                     <div className={container.image_container}>
                         <img src={Mario} alt="Charcol drawing of Mario" />
                             <p className={style.card_desc}>Mario just for fun</p>
                     </div>
                 </span> 
-        </div> */}
-        <div className={container.card_flex_main}>
-            <h2 className={style.child_card_title}>Digital Art</h2>
-                <span className={container.child_card}>
+        </div>
+        <div className={container.card_flex_main_col}>
+            <h2 className={style.child_card_col_title}>Digital Art</h2>
+                <span className={container.child_card_row}>
                         <div className={container.image_container}>
                             <img src={Alien} alt="Birthday card with an alien sitting ona ufo" />
                                 <p className={style.card_desc}>Birthday greeting created on a Samsung Note 5, using Adobe</p>

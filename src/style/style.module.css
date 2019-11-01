@@ -1,10 +1,10 @@
 /* All font sizing, margins (unless part of the container itself */
 
-.child_card_title {
+.child_card_col_title {
     text-align: center;
     font-size: 40px;
     padding: 1rem 0 1rem 0;
-    border: 3px solid teal; 
+    /* border: 3px solid teal;  */
 }
 
 .card_desc{
