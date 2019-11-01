@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import container from "../style/container.module.css"
 import construction from "../images/random/underconstruction.gif"
+
 const DeveloperPage = () => (
   <Layout>
       <div className={container.card_container}>                  
@@ -9,7 +10,7 @@ const DeveloperPage = () => (
               
       <aside className="aside-dev">
               <h3>Project List:</h3>
-              <button><a href="https://github.com/retrojb?tab=repositories"></a>Github</button>
+              <button style={{backgroundColor:`black`, padding:`1rem`, textDecoration:`none`, color:`white`}}><a href="https://github.com/retrojb?tab=repositories" target="_blank"  rel="noopener noreferrer">Github</a></button>
               <ul>
                   <li>Fortune Teller</li>
                   <li>Virtual Pet</li>

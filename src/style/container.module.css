@@ -1,17 +1,24 @@
 /* Containers starts here */
 
 .header_main_container{
-    height: 150px;
+    height: auto;
     max-width: 100%;
+    background-color: black;
+    color: azure;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 1.5rem;
 }
 
 .header_title_prop{
-    margin: 0 4rem 0 4rem;
-    margin-left: 5rem;
-    padding-right: 9rem
+    padding: 1rem 0 0 3rem ;
+}
+
+.header_nav_link_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: .5rem;
 }
 
 /* Misc Containers something random check here */

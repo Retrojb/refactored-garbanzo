@@ -1,5 +1,4 @@
 import React from 'react';
-import ArtistPage from '../pages/artist'
 
 const ContactForm = () => (
     <>

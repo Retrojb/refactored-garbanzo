@@ -1,5 +1,7 @@
 /* All font sizing, margins (unless part of the container itself */
-
+body {
+    background-color: azure;
+}
 .child_card_col_title {
     text-align: center;
     font-size: 40px;

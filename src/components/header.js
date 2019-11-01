@@ -1,22 +1,23 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Navigation from "./navigation"
 import container from "../style/container.module.css"
-import Rick from "../images/logos/rick_sanchez_logo.png"
-
+import Navigation from "../components/navigation"
 const Header = ({ siteTitle, siteSubTitle }) => (
   <header>
     <div className={container.header_main_container}>
-        <h2 className={container.header_title_prop}>
-             {siteTitle}
-        <br/>{siteSubTitle}</h2>
+       <div className={container.header_title_prop}>
+          <h2>
+              {siteTitle}
+          </h2>
+            <h4>
+              {siteSubTitle}
+            </h4>
+        </div>
+        <div className={container.header_nav_link_group}>
+          <Navigation></Navigation>
+        </div>
     </div>
-        {/* <div className={container.nav}>
-        <Navigation></Navigation>
-        </div> */}
 
-  
-    <hr></hr>
   </header> 
  
 

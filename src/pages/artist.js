@@ -16,9 +16,23 @@ const ArtistPage = (props) => (
   <Layout>
       <section className={container.card_container}>
         <div className={container.card_flex_main_col}>
-          <h3>The Artist formally know as Zoo</h3>
-          <p>Since I can remember, <br/>  I've had a fascination with art. As a child I would spend hours in the winter time just drawing any thing cool I could find in a magazine. I would draw starwar episode 1 characters off Pepsi cans. I would draw cars and engine parts from Motor Trend. Though my personal favorite to illustrate is cartoons, anime and comics. For me there is something with the realm of graphic works that sparks an interest deep inside of me.</p>
-            <p>Here are some of the random pieces of art that I have captured on film, arguably some of them aren't that great. Enjoy my numerous styles, and as they say</p> <q><i>Variety is the spice of life</i></q>
+            <h3 style={{fontSize:`30px`}}>
+              The Artist formally known as Zoo
+            </h3>
+                <p style={{fontSize:`24px`}}>Since I can remember,</p>
+                <p>
+                    I've had a fascination with art. As a child I would spend hours in the winter time just drawing any thing cool I could find in a magazine. 
+                    I would draw starwar episode 1 characters off Pepsi cans. I would draw cars and engine parts from Motor Trend. 
+                    Though my personal favorite to illustrate is cartoons, anime and comics. 
+                    For me there is something with the realm of graphic works that sparks an interest deep inside of me.
+                </p>
+                <p>
+                    Here are some of the random pieces of art that I have captured on film, arguably some of them aren't that great. 
+                    Enjoy my numerous styles, and as they say
+                </p>
+                    <q>
+                        <i>Variety is the spice of life</i>
+                    </q>
         </div>
 
       <div className={container.card_flex_main_col}>

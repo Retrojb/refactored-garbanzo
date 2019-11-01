@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import container from "../style/container.module.css"
 const Navigation = () => (
     <div>
-        <ul style={{padding:`2rem 0 1rem 0`}}>
+        <ul>
             <Link to="/" className={container.nav_links}>Home</Link> 
             <Link to="/aboutme" className={container.nav_links}>About Me</Link> 
             <Link to="/developer" className={container.nav_links}>Developer</Link> 
