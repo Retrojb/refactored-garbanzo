@@ -12,7 +12,7 @@ const CartographerPage = () => (
     <section className={container.card_container}> 
     <div className={container.card_flex_main_col}>
             <h3 className={style.child_card_col_title}>Not the ghost of my formal self</h3>
-        <span className={container.child_card_col}>
+        <span className={container.child_card_row}>
             <img className={container.image_container} src={ Tutor }/>
             <img className={container.image_container} src={ Survey }/>         
         </span>  
@@ -27,7 +27,7 @@ const CartographerPage = () => (
                 The deliverables will be completed by either an individual student, team, or the className.  
             </p>
         </span>                     
-        <span className={container.child_card_col} style={{ padding:`2rem`}}>
+        <span className={container.child_card_row} style={{ padding:`2rem`}}>
             <p className={style.card_desc} style={{marginRight: `.5rem`, textAlign:"left"}}> Service Learning project done at Sinclair Community College.
                 The concept was to map unique characteristics in the 
                 Historical Wright Dunbar Neighborhod, Fall of 2015 </p>                     
