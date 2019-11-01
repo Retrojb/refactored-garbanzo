@@ -8,6 +8,26 @@
     justify-content: flex-start;
 }
 
+/* Links */
+.footer_links { 
+    color: azure; 
+    padding:1rem;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+.footer_links:visited{
+    color: azure;
+}
+.footer_links:hover {
+    cursor: pointer;
+}
+
+.footer_links:active {
+  cursor: progress;
+}
+
 /* @media all and(max-width: 800px){ 
     .header_main_container{
         height: 150px;
@@ -81,24 +101,46 @@
 }
 
 /* Footer containers: social media & copy right  */
+.footer_main_container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: azure;
+}
+
 .social_container {
     display: flex;
     flex-direction: row;
-    width:60%;
+    width:auto;
     justify-content: space-around;
+    padding-top: 2rem;
 }
 
 .copy_right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: azure;
 }
 
-.footer_main_container{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.copy_right a {
+    color: azure;
 }
+
+.copy_right a:hover {
+    text-decoration: none;
+    color: azure;
+    transform: scale(1.6);
+    background-color: none;
+}
+
+.copy_right a:visited {
+    text-decoration: none;
+}
+
+
 /* End of Footer  */
 
 /* Info card  */
