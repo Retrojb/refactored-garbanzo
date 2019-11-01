@@ -4,8 +4,6 @@ import Navigation from './navigation';
 import SocialMedia from './social-media';
 import CopyRight from './copy-right';
 const Footer = () => (
-
-    
     <footer className={container.footer_main_container}>
         <div style={{width:`auto`, padding:`1rem`}}>
             <div style={{textAlign:`center`, marginTop:`.6rem`}}>
@@ -17,8 +15,7 @@ const Footer = () => (
             <div style={{margin:`2rem 0 2rem 0`}}>
                 <CopyRight></CopyRight>
             </div>
-        </div>
-        
+        </div>    
     </footer>        
 ) 
 
