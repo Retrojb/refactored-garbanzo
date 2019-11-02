@@ -1,25 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql, query } from "gatsby"
-import Img from "gatsby-image"
+import container from "../style/container.module.css"
 
-const Image = () => {  
-    const data = useStaticQuery(graphql`	
-    query {
-         file(relativePath: {eq: "cool-guy.jpg"}) {
-             childImageSharp {
-                 fluid {
-                     aspectRatio
-                     base64
-                     src
-                     sizes
-                     }
-                 }
-             }
-         }	
-     `)
-    return <Img fluid={data.file.childImageSharp.fluid} alt="My art work" />
-    }	
-
+export default props => (
+    <div className={container.image_container}>
+        <img src={props.image} />
+    </div>
+)
 // export const thumbnailImages = graphql`
 //     fragment thumbnailImages on File {
 //         childImageSharp{
@@ -29,4 +15,8 @@ const Image = () => {
 //         }
 //     }
 // `
-export default Image
+
+//Note
+//sub-component ie header
+// `export default props => <tag>{props.WHATEVER YOU WANT TO CALL THIS TAG ARGUEMENT}</tag>`
+//  on page that use sub-component add the `<Subcomponent WHATEVER YOU WANT TO CALL THIS TAG ARGUEMENT="what ever prop you want to declare" />`

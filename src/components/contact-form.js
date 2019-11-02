@@ -1,7 +1,7 @@
 import React from 'react';
-import ArtistPage from '../pages/artist'
 
 const ContactForm = () => (
+    <>
     <form>
         <div>
             <h4>Contact Me:</h4>
@@ -9,7 +9,10 @@ const ContactForm = () => (
             <input type="text" placeholder="Email"></input>
             <button>Submit</button>
         </div>
-        <ArtistPage></ArtistPage>
     </form>
+    <div>
+        <h5><a href="mailTo:baltescartography@gmail.com">Email me</a></h5>
+    </div>
+    </>
 )
 export default ContactForm

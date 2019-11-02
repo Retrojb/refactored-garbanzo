@@ -1,14 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/header"
+import container from "../style/container.module.css"
+import construction from "../images/random/underconstruction.gif"
 
 const DeveloperPage = () => (
   <Layout>
-    <Header></Header>      
-      <div className="dev-container">
+      <div className={container.card_container}>                  
+                  <img src={construction} alt="under construction pickachu" width="550" height="350" />                 
+              
       <aside className="aside-dev">
               <h3>Project List:</h3>
-              <button><a href="https://github.com/retrojb?tab=repositories"></a>Github</button>
+              <button style={{backgroundColor:`black`, padding:`1rem`, textDecoration:`none`, color:`white`}}><a href="https://github.com/retrojb?tab=repositories" target="_blank"  rel="noopener noreferrer">Github</a></button>
               <ul>
                   <li>Fortune Teller</li>
                   <li>Virtual Pet</li>
@@ -30,13 +32,10 @@ const DeveloperPage = () => (
                   <li>Hayapp</li>
               </ul>
       </aside>
-      <section className="art-container">
-              <span className="art-box" >
-                  
-          <img src="images/underconstruction.gif" alt="under construction pickachu" width="550" height="350" />                 
-      </span>
+      <section className={container.card_container}>
+        
       </section>
-      <section className="art-container">
+      <section className={container.card_container}>
           
              
       </section>

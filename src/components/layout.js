@@ -12,6 +12,8 @@ import Header from "./header"
 import Footer from "./footer"
 import "../style/layout.css"
 
+
+//look into how to make all of my pages into children here
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -25,10 +27,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div>
-      <Header></Header>
-      <main>{children}</main>
-      <Footer></Footer>
+      <div>
+        <Header></Header>
+        <main style={{ margin: `3rem auto`, maxWidth: 1000}}>{children}</main>
+        <Footer></Footer>
       </div>
     </>
   )
@@ -39,3 +41,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
