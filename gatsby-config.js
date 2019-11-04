@@ -23,7 +23,6 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-images`,
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`
         ]
       }
