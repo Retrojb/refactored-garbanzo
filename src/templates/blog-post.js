@@ -23,6 +23,7 @@ export default function Template({ data }) {
 export const pageQuery = graphql`
 {
   markdownRemark {
+    html
     frontmatter {
       date(formatString: "MM DD, YYYY")
       path
