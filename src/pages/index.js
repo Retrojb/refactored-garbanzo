@@ -53,3 +53,5 @@ export default ({data}) => {
   }
 }
   `
+
+// To update size require in graphQL and clean and re-deploy

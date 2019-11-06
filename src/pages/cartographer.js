@@ -13,13 +13,13 @@ const CartographerPage = () => (
     <div className={container.card_flex_main_col}>
             <h3 className={style.child_card_col_title}>Not the ghost of my formal self</h3>
         <span className={container.child_card_row}>
-            <img className={container.image_container} src={ Tutor }/>
-            <img className={container.image_container} src={ Survey }/>         
+            <img className={container.image_container} src={ Tutor } alt="" />
+            <img className={container.image_container} src={ Survey } alt="" />         
         </span>  
     </div>
         <span className={container.child_card_row}>
             <h3 className={style.child_card_col_title} style={{ marginRight:`1rem`, textAlign:`left`}}> Walkability Project</h3>
-            <img className={container.image_container} src={ Walk } />         
+            <img className={container.image_container} src={ Walk } alt="" />         
             <p className={style.card_desc} style={{marginLeft: `.5rem`, textAlign:"right"}}> What is the overall objective of the project? 
                 The purpose of the project is to assess the walkability of a section of downtown Dayton.
                 This project will require that students complete a project using the GIS workflow.   
@@ -31,14 +31,15 @@ const CartographerPage = () => (
             <p className={style.card_desc} style={{marginRight: `.5rem`, textAlign:"left"}}> Service Learning project done at Sinclair Community College.
                 The concept was to map unique characteristics in the 
                 Historical Wright Dunbar Neighborhod, Fall of 2015 </p>                     
-            <img className={container.image_container} src={ Dunbar }  />         
+            <img className={container.image_container} src={ Dunbar }  alt="" />         
             <h3 className={style.child_card_col_title} style={{ marginLeft:`1rem`, textAlign:`right`}}>
                 Wright Dunbar Service Learning Project</h3>      
         </span>
         <div className={container.card_flex_main_col}>
                 <h3 className={style.child_card_col_title}>3D GIS of The Ohio State University</h3>
             <span className={container.child_card_col}>
-                    <iframe src="https://www.youtube.com/embed/ukH2uMqcwzE" frameBorder="2" allow="autoplay; encrypted-media" allowFullScreen style={{width:`600px`, height:`400px`}}>
+                <title>3D GIS fly thru of Ohio State's main campus</title>
+                    <iframe src="https://www.youtube.com/embed/ukH2uMqcwzE" alt="fly thru of OSU campus" frameBorder="2" allow="autoplay; encrypted-media" allowFullScreen style={{width:`600px`, height:`400px`}}>
                     </iframe>
             </span>
                 <p className={style.card_desc}>Using Arc Scene to create a 3D landscape and fly through</p>
