@@ -16,7 +16,7 @@ import { Link, graphql } from "gatsby"
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
               </h1>
               <h2>{post.frontmatter.date}</h2>
-              {/* <p>{post.excerpt}</p> */}
+              <p>{post.excerpt}</p>
             </div>
           )
         })}
