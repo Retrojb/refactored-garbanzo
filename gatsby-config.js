@@ -4,7 +4,7 @@ module.exports = {
     description: `Welcome to John Baltes aka Retrojb development world.`,
     author: `@retrojb`,
     name: `John Baltes`,
-    email: `baltescartography@gmail.com`,
+    email: `mailTo:baltescartography@gmail.com`,
     github: `https://www.github.com/retrojb` ,
     linkedIn: `https://www.linkedin.com/in/john-baltes/`,
     phone: `(937)272-0959`,

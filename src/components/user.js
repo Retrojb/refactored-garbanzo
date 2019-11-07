@@ -1,50 +1,64 @@
-// import React from 'react'
+import React from "react"
+import Button from "@material-ui/core/Button"
+export default class User extends React.Component {
+    state = {
+        userName: ``,
+        firstName: ``,
+        lastName: ``,
+        email: ``,
+    }
 
-// export class User extends React.Component {
+    constructor(props) {
+        super(props)
+       
+        this.handleInputChange = this.handleInputChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
+    }
 
-//     user = {
-//         userName: ``,
-//         password:``,
-//         email:``,
-//     }
+    onUserNameChange = (event) => {
+        this.setState( { userName: event.target.value })
+    } 
 
-//     constructor( props ) {
-//         super(props)
-//         userName = props.userName
-//         password = props.password
-//         email = props.email 
-//     }
+    handleInputChange = event => {
+        const target = event.target
+        const value = event.value
+        const name = target.name
+        this.setState({
+            [name]: value
+        })
+        console.log('hello', this.state)
 
-//     getUserName() {
-//         return userName
-//     }
+        
+    }
 
-//     getPassword() {
-//         return password
-//     }
+    handleSubmit = event => {
+        event.preventDefault()
+        console.log('hi', this.state)
+        alert(`Hey ${this.state.firstName} ${this.state.lastName} I can reach you at ${this.state.email}`)
+    }
+    render() {
+        return (
+            <form onSubmit={this.handleSubmit.bind(this)}>
+                <h4>Want to connect? </h4>
+                <label>
+                    Username:
+                <input type="text" name="userName" value={this.userName} onChange={this.onUserNameChange.bind(this)} />
+                </label>
+                <label>
+                    Name:
+                <input type="text" name="firstName" value={this.firstName} onChange={this.handleInputChange.bind(this)} />
+                </label>
+                <label>
+                    <input type="text" name="lastName" value={this.lastName} onChange={this.handleInputChange.bind(this)} />
+                </label>
+                <label>
+                    Email:
+                <input type="text" name="email" value={this.email} onChange={this.handleInputChange.bind(this)} />
+                </label>
 
-//     getEmail() {
-//         return email
-//     }
+                <Button type="submit" value="Submit">Connect</Button>
 
-//     setUserName(userName) {
-//         if (userName == null ){
-//             this.userName = userName
-//             return userName
-//         }
-//     }
-
-//     setPassword(password) {
-//         if (userName != null && password == null) {
-//             this.password = password
-//             return password
-//         }
-//     }
-
-//     setEmail() {
-//         if (email == null) {
-//             this.email = this.email
-//             return email
-//         }
-//     }
-// }
+            </form>
+        )
+    }
+}

@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "John Baltes<@retrojb>",
   "dependencies": {
+    "@material-ui/core": "^4.6.0",
     "gatsby": "^2.16.1",
     "gatsby-cli": "^2.8.5",
     "gatsby-image": "^2.2.29",

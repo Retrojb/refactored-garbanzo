@@ -2,11 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { graphql } from "gatsby"
 import container from '../style/container.module.css'
+import Layout from '../components/layout'
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data //holds your post data data.markdownRemark
     return (
-
+      <Layout>
         <div className={container.blog_container}>
             <Helmet title={`Retro Hour - ${post.frontmatter.title}`} />
                 <div className={container.blog_post}>
@@ -17,6 +18,7 @@ export default function Template({ data }) {
                         />
                 </div>
         </div>
+        </Layout>
     )
 }
 
